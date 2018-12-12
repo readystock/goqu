@@ -6,7 +6,7 @@ import (
 
 	"github.com/c2fo/testify/assert"
 	"github.com/c2fo/testify/suite"
-	"gopkg.in/doug-martin/goqu.v5"
+	"github.com/readystock/goqu"
 )
 
 type datasetAdapterTest struct {

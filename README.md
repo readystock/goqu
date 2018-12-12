@@ -67,7 +67,7 @@ Adapters in goqu work the same way as a driver with the database in that they re
 ```go
 import (
   "database/sql"
-  "gopkg.in/doug-martin/goqu.v5"
+  "github.com/readystock/goqu"
   _ "gopkg.in/doug-martin/goqu.v5/adapters/postgres"
   _ "github.com/lib/pq"
 )
@@ -704,7 +704,7 @@ For example the code for the postgres adapter is fairly short.
 package postgres
 
 import (
-    "gopkg.in/doug-martin/goqu.v5"
+    "github.com/readystock/goqu"
 )
 
 //postgres requires a $ placeholder for prepared statements
